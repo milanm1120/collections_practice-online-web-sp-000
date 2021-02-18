@@ -72,3 +72,5 @@ def add_s(array)
     end
   end
 end
+
+print add_s(["hand","feet", "knee", "table"])
