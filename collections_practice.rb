@@ -63,3 +63,15 @@ def sum_array(array)
 end
 
 print sum_array([11,4,7,8,9,100,134])
+
+def add_s(array)
+  array.map do |word|
+    if array[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
+end
+
+print add_s(["hand","feet", "knee", "table"])
