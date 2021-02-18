@@ -54,3 +54,12 @@ def find_a(array)
 end
 
 print find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
+
+
+def sum_array(array)
+  array.inject(0) do |numbers, x|
+    numbers + x
+  end
+end
+
+print sum_array([11,4,7,8,9,100,134])
